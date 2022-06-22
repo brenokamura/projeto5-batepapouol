@@ -1,0 +1,62 @@
+body{
+    width: 375px;
+    height: 667px;
+    background-color: aqua;
+}
+
+
+.header{
+    width: 375px;
+    height: 80px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+width: 75px;
+height: 53px;
+margin-top: 16px;
+margin-left: 22px;
+}
+
+.vector{
+margin-right: 22.41px;
+margin-top: 25.03px;
+margin-bottom: 24.03px;
+}
+
+.main{
+    width: 375px;
+    height: 507px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+} 
+.footer{
+    width: 375px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+input{
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+width: 145px;
+height: 30px;
+margin-left: 17px;
+margin-top: 25px;
+}
+
+.arrow{
+    width: 26px;
+    height: 26px;
+margin-right: 27px;
+margin-top: 27px;
+margin-bottom: 27px;
+}
