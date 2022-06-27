@@ -1,61 +1,103 @@
-body{
-    width: 375px;
-    height: 667px;
-    background-color: aqua;
+*{
+box-sizing: border-box;
 }
 
+body{
+width: 375px;
+height: 667px;
+background-color: #f3f3f3;
+font-family: "Roboto", sans-serif;
+}
 
 .header{
-    width: 375px;
-    height: 80px;
-    background-color: gray;
-    display: flex;
-    justify-content: space-between;
+width: 100%;
+height: 80px;
+background-color:#FFFFFF;
+display: flex;
+justify-content: space-between;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .logo{
 width: 75px;
 height: 53px;
-margin-top: 16px;
 margin-left: 22px;
 }
 
-.vector{
-margin-right: 22.41px;
-margin-top: 25.03px;
-margin-bottom: 24.03px;
+.header ion-icon{
+margin-right: 27px;
+margin-top: 27px;
+margin-bottom: 27px;
+font-size: 46px;
 }
+    
 
 .main{
-    width: 375px;
-    height: 507px;
-    background-color: gray;
-    display: flex;
-    justify-content: space-between;
+width: 100%;
+height: 507px;
+margin-top: 105px;
+background-color: #E5E5E5;
 } 
-.footer{
-    width: 375px;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    
+
+.message{
+height: 40px;
+text-align: justify;
 }
+
+.nick,.to {
+font-weight: 700;
+}
+.acess {
+background-color: #dcdcdc;
+}
+.all {
+background-color: #ffffff;
+}  
+
+.time {
+color: #aaaaaa;
+}
+  
+.privately {
+background-color: #ffdede;
+}
+  
+.footer{
+width: 100%;
+height: 80px;
+background: #FFFFFF;
+box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
 input{
 font-family: 'Roboto';
 font-style: italic;
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-
 width: 145px;
 height: 30px;
 margin-left: 17px;
-margin-top: 25px;
+border: none;
 }
 
-.arrow{
-    width: 26px;
-    height: 26px;
+.footer ion-icon{
+width: 26px;
+height: 26px;
 margin-right: 27px;
 margin-top: 27px;
 margin-bottom: 27px;
