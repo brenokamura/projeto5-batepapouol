@@ -19,7 +19,7 @@ body {
     z-index: 2;
   }
   
-  .login-container,
+  .login-starter,
   .loader {
     display: flex;
     flex-direction: column;
